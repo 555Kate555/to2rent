@@ -115,7 +115,7 @@ body {
 }
 .search__form-input {
     height: 70px;
-    padding: 0 15px;
+    padding: 20px 15px;
     border: 2px solid #C4C4C4;
     width: 430px;
     color: #888888;
@@ -389,7 +389,7 @@ body {
     height: 70px;
     background-color: #fff;
     border: none;
-    padding: 0 15px;
+    padding: 20px 15px;
     font-family: 'RobotoCondensed-Regular',sans-serif;
     font-size: 18px;
     line-height: 24px;
@@ -403,6 +403,11 @@ body {
     color: #888888;
     font-weight: 400;
 }
+
+::-moz-placeholder {
+  vertical-align: center;
+}
+
 .footer__form-btn {
     cursor: pointer;
     color: #FFFFFF;
@@ -523,6 +528,7 @@ body {
         text-align: center;
         width: 300px;
         max-width: 500px;
+        outline:none;
     }
 }
 
